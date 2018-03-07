@@ -1,0 +1,27 @@
+What does the word 'polymorphism' mean?
+Means many forms.
+
+What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+A simple example of Polymorphism, would be an interface called employee, when would be implemented in other classes like, salaried employee and hourly employee. in the interface employee they're would be a method called overtimeSalary, which would be implemented in the child classes and would be able run the method. A simple way of checking is an object is polymorphic would be ask 'is a'.
+
+What can we use to implement polymorphism in Java?
+we use interfaces to implement polymorphism in Java, these are simple classes which have only one method which must be called in the child classes that the parent is implemented in.
+
+How many 'forms' can an object take when using polymorphism?
+In Java you can have only one abstract class extended to a child class, but there is not limit to the interfaces that can be called on a class.
+
+Give an example of when you could use polymorphism.
+A great example someone used in class today would be an Animal. where you can have the abstract class Animal which would have behaviours and attributes which all animals have. now lets say we have a deer, animal would extend to deer as this 'is a' animal. A deer is also a vegitarian. So you then could also have an interface name IVegi, which would run the method, eatsPlants, this could also be implemented to the deer class. making the deer class polymorphic.
+
+
+What do we mean by 'composition' in reference to object-oriented programming?
+Composition in java is the design technique to implement has-a relationship in classes.
+
+When would you use composition? Provide a simple example in Java.
+A very simple example of this is our hotel model, where the hotel has a room, so it has an arraylist filled with rooms. this is composition
+
+What is/are the advantage(s) of using composition?
+Composition should achieve polymorphic behaviour and code reuse by their composition by containing instances of other classes that implement the desired functionality rather than inheritance from a base or parent class.
+
+What happens to the behaviours when the object composed of them is destroyed?
+I don't really know, I believe this has to do with dependency inversion principle, but I am not able to find my notes on this, but I do believe that if an object is destroyed the behaviours the behaviours should still be able to be picked up by another class. 
